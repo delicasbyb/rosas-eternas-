@@ -1,0 +1,14 @@
+{
+  "name": "Rosas Para Toda la Vida",
+  "short_name": "Rosas Eternas",
+  "description": "Rosas eternas hechas a mano en Quito, Ecuador.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1c070d",
+  "theme_color": "#1c0a0f",
+  "lang": "es-EC",
+  "icons": [
+    { "src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icono-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
