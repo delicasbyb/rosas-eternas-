@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" role="img" aria-label="Cúpula de cristal con base de madera, luces LED y una rosa eterna dentro">
+  <defs>
+    <radialGradient id="f" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#fffdf9"/><stop offset=".6" stop-color="#fbf0f2"/><stop offset="1" stop-color="#f2d9de"/></radialGradient>
+    <radialGradient id="p" cx="50%" cy="60%" r="70%"><stop offset="0" stop-color="#5e0b20"/><stop offset=".6" stop-color="#9e1530"/><stop offset="1" stop-color="#d0405e"/></radialGradient>
+    <linearGradient id="vidrio" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".7"/><stop offset=".25" stop-color="#fff" stop-opacity=".1"/><stop offset=".8" stop-color="#fff" stop-opacity=".08"/><stop offset="1" stop-color="#fff" stop-opacity=".55"/></linearGradient>
+    <linearGradient id="madera" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9a6438"/><stop offset="1" stop-color="#4e2c16"/></linearGradient>
+    <radialGradient id="luz"><stop offset="0" stop-color="#ffe9a8"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="800" height="680" fill="url(#f)"/>
+  <ellipse cx="400" cy="580" rx="200" ry="20" fill="#5e0b20" opacity=".14"/>
+  <!-- Rosa dentro -->
+  <g transform="translate(400 300)">
+    <path d="M0 80c-6 60 0 120 0 160" stroke="#3d6b3a" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <path d="M2 170c-30-24-70-14-80 8 30 20 64 12 80-8zM2 200c30-20 66-12 76 8-30 18-62 10-76-8z" fill="#3d6b3a"/>
+    <path d="M-86 10c-10-58 38-104 86-96 48-8 96 38 86 96-6 48-48 78-86 78s-80-30-86-78z" fill="url(#p)"/>
+    <path d="M-58 2c0-38 28-62 58-58 32 0 58 24 54 60-4 28-28 46-54 46S-58 30-58 2z" fill="#8e1330"/>
+    <path d="M-34-4c0-22 16-34 34-32 22 2 34 18 30 38-4 18-18 26-32 24-18-2-32-12-32-30z" fill="#6e0b1f"/>
+    <path d="M-14-6c2-12 12-16 22-12s12 16 4 22-20 4-26-10z" fill="#4a0614"/>
+    <path d="M-76 2c10-38 48-66 86-58M30-56c38 14 60 48 52 72" stroke="#ff9cb0" stroke-opacity=".5" stroke-width="3" fill="none"/>
+  </g>
+  <!-- Luces LED -->
+  <g>
+    <circle cx="300" cy="420" r="16" fill="url(#luz)"/><circle cx="300" cy="420" r="4" fill="#fff3c4"/>
+    <circle cx="350" cy="470" r="16" fill="url(#luz)"/><circle cx="350" cy="470" r="4" fill="#fff3c4"/>
+    <circle cx="450" cy="460" r="16" fill="url(#luz)"/><circle cx="450" cy="460" r="4" fill="#fff3c4"/>
+    <circle cx="500" cy="410" r="16" fill="url(#luz)"/><circle cx="500" cy="410" r="4" fill="#fff3c4"/>
+    <circle cx="280" cy="330" r="16" fill="url(#luz)"/><circle cx="280" cy="330" r="4" fill="#fff3c4"/>
+    <circle cx="520" cy="320" r="16" fill="url(#luz)"/><circle cx="520" cy="320" r="4" fill="#fff3c4"/>
+    <path d="M280 330c-10 40 20 70 20 90s30 50 50 50 60 0 100-10 50-30 50-50 20-60 20-90" fill="none" stroke="#c9a45c" stroke-width="1.5" opacity=".6"/>
+  </g>
+  <!-- Cúpula -->
+  <path d="M230 540V250a170 170 0 0 1 340 0v290z" fill="url(#vidrio)" stroke="#d8c6ca" stroke-width="3"/>
+  <path d="M260 500V256a140 140 0 0 1 60-114" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".85"/>
+  <ellipse cx="400" cy="92" rx="18" ry="8" fill="#e3d6d9"/>
+  <!-- Base -->
+  <rect x="200" y="536" width="400" height="40" rx="10" fill="url(#madera)"/>
+  <rect x="216" y="574" width="368" height="14" rx="6" fill="#3a2010"/>
+</svg>

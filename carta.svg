@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 680" role="img" aria-label="Carta de amor con sobre y sello de cera">
+  <defs>
+    <radialGradient id="f" cx="50%" cy="42%" r="70%"><stop offset="0" stop-color="#fffdf9"/><stop offset=".6" stop-color="#fbf0f2"/><stop offset="1" stop-color="#f2d9de"/></radialGradient>
+    <linearGradient id="sobre" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7e9dc"/><stop offset="1" stop-color="#ead6c3"/></linearGradient>
+    <linearGradient id="papel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fffdf8"/><stop offset="1" stop-color="#f6eee2"/></linearGradient>
+    <radialGradient id="cera" cx="38%" cy="35%" r="70%"><stop offset="0" stop-color="#d23a58"/><stop offset=".6" stop-color="#8e1330"/><stop offset="1" stop-color="#5e0b20"/></radialGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#5e0b20" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="800" height="680" fill="url(#f)"/>
+  <circle cx="400" cy="330" r="250" fill="none" stroke="#c9a45c" stroke-opacity=".35" stroke-dasharray="2 8"/>
+  <g filter="url(#s)" transform="rotate(-6 400 360)">
+    <!-- Carta asomando -->
+    <rect x="250" y="150" width="300" height="260" rx="6" fill="url(#papel)"/>
+    <g stroke="#b9a07a" stroke-width="2" stroke-linecap="round" opacity=".7">
+      <path d="M290 205c30-8 60 8 90 0s60-8 90 0" fill="none"/>
+      <path d="M290 240h220M290 270h200M290 300h214M290 330h150" />
+    </g>
+    <text x="300" y="196" font-family="Georgia, serif" font-style="italic" font-size="30" fill="#8e1330">Mi amor,</text>
+    <!-- Sobre -->
+    <path d="M200 300h400v230H200z" fill="url(#sobre)"/>
+    <path d="M200 300l200 140 200-140" fill="#f1e1d1" stroke="#dcc5ad" stroke-width="2"/>
+    <path d="M200 530l160-120M600 530 440 410" stroke="#dcc5ad" stroke-width="2"/>
+    <!-- Sello de cera -->
+    <g transform="translate(400 440)">
+      <path d="M0-46c12 0 16 8 26 10 10 4 18 10 18 24 0 10 6 16 2 28-4 10-14 12-20 20-8 8-14 12-26 12s-18-6-26-12c-6-8-16-10-20-20-4-12 2-18 2-28 0-14 8-20 18-24 10-2 14-10 26-10z" fill="url(#cera)"/>
+      <circle r="28" fill="none" stroke="#5e0b20" stroke-opacity=".5" stroke-width="2"/>
+      <path d="M0 12s-16-10-16-21a8 8 0 0 1 16-4 8 8 0 0 1 16 4C16 2 0 12 0 12z" fill="#c9a45c" opacity=".9"/>
+    </g>
+  </g>
+  <!-- Pétalo decorativo -->
+  <path d="M600 520c30-10 62 6 66 30-24 18-60 14-74-4-4-10 0-20 8-26z" fill="#b01e40" opacity=".85"/>
+  <path d="M150 170c18-16 48-12 56 8-14 20-42 22-56 8-4-6-4-12 0-16z" fill="#c43552" opacity=".55"/>
+</svg>

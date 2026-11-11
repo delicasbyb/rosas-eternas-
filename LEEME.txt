@@ -1,0 +1,23 @@
+CARPETA DE FOTOS — Rosas Para Toda la Vida
+==========================================
+
+1) FOTO DE TU RAMO (tu producto principal)
+   Ya está puesta: rosa-eterna-1.jpg (tu ramo de 10 rosas de satín).
+   Para cambiarla, reemplaza ese archivo por otra foto con el MISMO nombre.
+   El sitio la muestra automáticamente en el catálogo y en la galería.
+   Si el archivo faltara, se vería una imagen ilustrativa (ilustraciones/rosa.jpg).
+
+   Recomendaciones:
+   - Formato JPG, horizontal o cuadrada, mínimo 1200 px de ancho.
+   - Fondo limpio y claro, buena luz natural (cerca de una ventana, sin sol directo).
+   - Peso ideal: menos de 300 KB. Puedes comprimirla gratis en https://squoosh.app
+
+2) MÁS FOTOS
+   Si luego tienes fotos reales de cartas, chocolates o presentaciones, guárdalas aquí
+   y cambia la ruta "foto" del producto en js/config.js. Por ejemplo:
+       foto: 'fotos/caja-regalo.jpg',
+       ilustrativa: false
+
+3) IMAGEN PARA COMPARTIR (og-imagen.jpg)
+   Es la vista previa que aparece al compartir el enlace por WhatsApp o Facebook.
+   Puedes reemplazarla por una foto tuya de 1200 x 630 px con el mismo nombre.
